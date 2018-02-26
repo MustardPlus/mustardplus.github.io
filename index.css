@@ -1,0 +1,44 @@
+/*
+2/25/2018
+MustardPlus
+*/
+
+body {
+	background-color: #07000f;
+	color: #FFF;
+	font-family: 'Cinzel', serif;
+}
+
+.wrapper {
+	padding: 0px 5px;
+	overflow-x: hidden;
+}
+
+/* Text Enchancements */
+.ext1 {
+	font-size: 32px;
+}
+
+.cW {
+	color: #FFF;
+}
+
+.centered {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centext {
+	text-align: center;
+}
+
+.separation {
+	color: white;
+	margin: 36px 0px;
+}
+
+.photo{
+	max-width: 100%;
+}
+
