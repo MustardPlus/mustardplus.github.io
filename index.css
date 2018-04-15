@@ -14,6 +14,12 @@ body {
 	overflow-x: hidden;
 }
 
+#footer {
+	text-align: center;
+	margin: 40px 0px;
+	font-size: 12px;
+}
+
 /* Text Enchancements */
 .ext1 {
 	font-size: 32px;
@@ -36,6 +42,11 @@ body {
 .separation {
 	color: white;
 	margin: 36px 0px;
+}
+
+.gap {
+	color: white;
+	margin: 96px 0px;
 }
 
 .photo{
