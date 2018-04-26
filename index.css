@@ -1,5 +1,5 @@
 /*
-2/25/2018
+Last Update: 4/25/2018
 MustardPlus
 */
 
@@ -20,13 +20,82 @@ body {
 	font-size: 12px;
 }
 
+#social {
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+}
+
+#mnu_pages {
+	color: yellow;
+}
+
+#mnu_pages a {
+	color: #c1c1c1;
+}
+
+#mnu_pages a:hover {
+	color: #20CC00;
+}
+
+.lstIcons li {
+	float: center;
+	display: inline;
+}
+
+.lstIcons img {
+	width: 50px;
+	-webkit-transition: filter 0.2s;
+	-moz-transition: filter 0.2s;
+	transition: filter 0.2s;
+	filter: invert(100%);
+}
+
+.lstIcons img:hover {
+	filter: invert(0%);
+}
+
 /* Text Enchancements */
 .ext1 {
 	font-size: 32px;
 }
+.ext2 {
+	font-size: 24px;
+}
 
-.cW {
+.cB { /* Black */
+	color: #000;
+}
+
+.cW { /* White */
 	color: #FFF;
+}
+
+.cD { /* Dark */
+	color: #33220B;
+}
+
+.cY { /* Mustard Yellow */
+	color: #FFD600;
+}
+
+.cYd { /* Orange */
+	color: #FE6800;
+}
+
+.cR { /* Red */
+	color: #FE1F00;
+}
+
+.cG { /* Gray */
+	color: #c1c1c1;
+}
+
+.cGr { /* Green */
+	color: #20CC00;
+}
+
+.cBl { /* Blue */
+	color: #0029FF;
 }
 
 .centered {
@@ -37,6 +106,17 @@ body {
 
 .centext {
 	text-align: center;
+}
+
+.align_right{
+	float: right;
+}
+
+.divider {
+	font-size: 6px;
+	color: white;
+	background-color: #c1c1c1;
+	margin: 16px 0px;
 }
 
 .separation {
