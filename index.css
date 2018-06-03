@@ -129,7 +129,16 @@ body {
 	margin: 96px 0px;
 }
 
+.clickable {
+	filter: brightness(100%);
+	transition: filter 0.2s;
+}
+
+.clickable:hover {
+	filter: brightness(60%);
+	cursor: pointer;
+}
+
 .photo{
 	max-width: 100%;
 }
-
