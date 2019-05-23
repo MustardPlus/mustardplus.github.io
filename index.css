@@ -4,9 +4,13 @@ MustardPlus
 */
 
 body {
-	background-color: #07000f;
+	background-color: #040008;
 	color: #FFF;
 	font-family: 'Cinzel', serif;
+}
+
+.fntSlabo {
+	font-family: 'Slabo 27px', serif;
 }
 
 .wrapper {
@@ -55,11 +59,28 @@ body {
 }
 
 /* Text Enchancements */
+.ext0 {
+	font-size: 40px;
+}
+
 .ext1 {
 	font-size: 32px;
 }
+
 .ext2 {
 	font-size: 24px;
+}
+
+.ext3 {
+	font-size: 18px;
+}
+
+.ext4 {
+	font-size: 12px;
+}
+
+.compact1 {
+	font-size: 4px;
 }
 
 .cB { /* Black */
@@ -80,6 +101,10 @@ body {
 
 .cYd { /* Orange */
 	color: #FE6800;
+}
+
+.cP { /* Purple */
+	color: #BB96FC;
 }
 
 .cR { /* Red */
@@ -124,9 +149,19 @@ body {
 	margin: 36px 0px;
 }
 
+.separation2 {
+	color: white;
+	margin: 18px 0px;
+}
+
 .gap {
 	color: white;
 	margin: 96px 0px;
+}
+
+.gap2 {
+	color: white;
+	margin: 78px 0px;
 }
 
 .clickable {
@@ -141,4 +176,37 @@ body {
 
 .photo{
 	max-width: 100%;
+}
+
+.photo_clickable {
+	-webkit-transition: filter 0.2s;
+	-moz-transition: filter 0.2s;
+	transition: filter 0.2s;
+	filter: brightness(100%);
+}
+
+.photo_clickable:hover {
+	filter: brightness(40%);
+}
+
+
+/* Fade-In */
+.fade_in {
+	-webkit-transition: filter 1s;
+	-moz-transition: filter 1s;
+	transition: filter 1s;
+}
+
+#ico_scroll {
+	-webkit-transition: filter 3s;
+	-moz-transition: filter 3s;
+	transition: filter 3s;
+}
+
+.fade_in_start {
+	filter: opacity(0%);
+}
+
+.fade_in_end {
+	filter: opacity(100%);
 }

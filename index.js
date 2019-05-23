@@ -22,14 +22,18 @@ function set_img(id, path){
 }
 
 function generate_tagline(){
-	var s_id = Math.floor(Math.random()*5);
+	var s_id = Math.floor(Math.random()*4);
 	switch(s_id){
 		case 1: str = "There's a reason coming..."; break;
-		case 2: str = "Don't look down..."; break;
-		case 3: str = "There's only one way to be..."; break;
-		case 4: str = "What's decided will happen..."; break;
+		case 2: str = "There's only one way to be..."; break;
+		case 3: str = "What's decided will happen..."; break;
 		default:
-		case 5: str = "Watch yourself..."; break;
+		case 4: str = "Watch yourself..."; break;
 	}
 	set_text("txt_tagline", str);
+}
+
+function fade_in_handle(){
+	class_change(getByID("txt_tagline"), "fade_in_start", "fade_in_end");
+	class_change(getByID("ico_scroll"), "fade_in_start", "fade_in_end");
 }
