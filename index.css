@@ -178,6 +178,31 @@ body {
 	max-width: 100%;
 }
 
+.photow02 {
+	max-width: 2%;
+}
+.photow1 {
+	max-width: 10%;
+}
+.photow2 {
+	max-width: 20%;
+}
+.photow3 {
+	max-width: 30%;
+}
+.photow4 {
+	max-width: 40%;
+}
+.photow5 {
+	max-width: 50%;
+}
+.photow6 {
+	max-width: 60%;
+}
+.photow8 {
+	max-width: 80%;
+}
+
 .photo_clickable {
 	-webkit-transition: filter 0.2s;
 	-moz-transition: filter 0.2s;
@@ -209,4 +234,34 @@ body {
 
 .fade_in_end {
 	filter: opacity(100%);
+}
+
+
+@media screen and (max-width: 719px) {
+	/* comes into effect for screens less than or equal to 639 pixels */
+	.photow02 {
+		max-width: 4%;
+	}
+	.photow1 {
+		max-width: 20%;
+	}
+	.photow2 {
+		max-width: 40%;
+	}
+	.photow3 {
+		max-width: 60%;
+	}
+	.photow4 {
+		max-width: 80%;
+	}
+	.photow5 {
+		max-width: 100%;
+	}
+	.photow6 {
+		max-width: 120%;
+	}
+	.photow8 {
+		max-width: 160%;
+	}
+	
 }
