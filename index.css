@@ -13,6 +13,10 @@ body {
 	font-family: 'Slabo 27px', serif;
 }
 
+.fntKanit {
+	font-family: 'Kanit', sans-serif;
+}
+
 .wrapper {
 	padding: 0px 5px;
 	overflow-x: hidden;

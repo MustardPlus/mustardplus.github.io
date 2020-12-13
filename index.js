@@ -24,11 +24,11 @@ function set_img(id, path){
 function generate_tagline(){
 	var s_id = Math.floor(Math.random()*4);
 	switch(s_id){
-		case 1: str = "There's a reason coming..."; break;
-		case 2: str = "There's only one way to be..."; break;
-		case 3: str = "What's decided will happen..."; break;
+		case 1: str = "THERE'S A REASON COMING..."; break;
+		case 2: str = "THERE'S ONLY ONE WAY TO BE..."; break;
+		case 3: str = "WHAT'S DECIDED WILL HAPPEN..."; break;
 		default:
-		case 4: str = "Watch yourself..."; break;
+		case 4: str = "WATCH YOURSELF..."; break;
 	}
 	set_text("txt_tagline", str);
 }

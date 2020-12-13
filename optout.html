@@ -7,6 +7,7 @@
 @import url(index.css);
 @import url('https://fonts.googleapis.com/css?family=Cinzel:900');
 @import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
 </style>
 <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
 <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
@@ -15,25 +16,27 @@
 <div class="wrapper mnu" script="$(".wrapper".height($(document)).height());">
 
 <div class="content">
+<div class="separation2"></div>
+<div class="ext3 clickable centext cYd fntKanit" onclick="window.location = 'index.html';" >[ RETURN HOME ]</div>
 <div class="separation"></div>
 
 <!-- Opt-Out -->
 <img id="ico_scroll" class="photo centered" style="max-width: 10%;" src="assets/logos/ico_oo.png"/>
 <div class="ext0 centext"><span class="cY">[</span>Opt<span class="cY">-</span>Out<span class="cY">]</span></div>
-<div class="ext2 centext">An Open-World Turn-Based RPG of creatures and action.</div>
+<div class="ext2 centext fntKanit">An Open-World Turn-Based RPG of creatures and action.</div>
 <div class="gap2"></div>
-<img class="photo photow2 centered clickable" style="outline: 2px solid #FFF;" onclick="window.location = 'assets/artwork/gallery/our_reach_home.png';" src="assets/artwork/gallery/our_reach_home.png"/>
+<img class="photo photow2 clickable" style="outline: 2px solid #FFF;" onclick="window.location = 'assets/artwork/gallery/our_reach_home.png';" src="assets/artwork/gallery/our_reach_home.png"/>
 <div class="gap2"></div>
-<div class="ext0 centext">WHAT IF YOU WERE CONTACTED BY <span class="cY">A</span> FUTURE?</div>
+<img class="photo photow5" src="assets/structure/opt-out_desc_whatif.png"/>
 <br>
-<div class="ext2 centext">this isn't <span class="cYd">a</span> future that will be...</div>
-<div class="ext2 centext">this isn't <span class="cYd">a</span> future meant for you...</div>
-<div class="ext2 centext">this isn't <span class="cYd">a</span> future because of you...</div>
-<div class="ext2 centext">this is <span class="cYd">a</span> future that is...</div>
+<div class="ext2 fntKanit">this isn't <span class="cYd">a</span> future that will be...</div>
+<div class="ext2 fntKanit">this isn't <span class="cYd">a</span> future meant for you...</div>
+<div class="ext2 fntKanit">this isn't <span class="cYd">a</span> future because of you...</div>
+<div class="ext2 fntKanit cG">this is just a future that is...</div>
 <div class="gap2"></div>
 <img class="photo photow2 centered clickable" style="outline: 2px solid #FFF;" onclick="window.location = 'assets/structure/character_preview_oo.png';" src="assets/structure/character_preview_oo.png"/>
 <br>
-<div class="ext1 centext">A STORY OF <span class="cYd">SUPERSTITION</span> AND <span class="cYd">PRESSURE</span>.</div>
+<img class="photo photow4 centered" src="assets/structure/opt-out_desc_story.png"/>
 <br>
 <div class="centext">Will you <span class="cY">Seek</span> out the <span class="cY">truth</span> or <span class="cP">Avoid</span> the <span class="cP">unknown</span>?</div>
 <div class="gap"></div>
@@ -46,50 +49,35 @@
 <br>
 <div class="ext1">Details:</div>
 <br>
-<div class="ext3">Genre: <span class="cP">Single-Player JRPG</span></div>
-<div class="ext3">Developer: <span class="cY">MustardPlus</span></div>
-<div class="ext3">Publisher: <span class="cY">MustardPlus</span></div>
-<div class="ext3">Platforms: <span class="cP">Windows</span></div>
-<div class="ext3">Release Date: <span class="cP">TBA</span></div>
+<div class="ext3">Genre: <span class="cP fntKanit">Single-Player JRPG</span></div>
+<div class="ext3">Developer: <span class="cY fntKanit">MustardPlus</span></div>
+<div class="ext3">Publisher: <span class="cY fntKanit">MustardPlus</span></div>
+<div class="ext3">Platforms: <span class="cP fntKanit">Windows</span></div>
+<div class="ext3">Release Date: <span class="cP fntKanit">TBA</span></div>
 <br>
-<div class="ext3">Made with GameMaker Studio 2.</div>
-<div class="ext3">Development roughly started: <span class="cY">January 22, 2016</span></div>
+<div class="ext3 fntKanit">Made with GameMaker Studio 2.</div>
+<div class="ext3">Development roughly started: <span class="cY fntKanit">January 22, 2016</span></div>
 <br>
+<div class="ext3 cG fntKanit">Development is currently on hold.</div>
+<br>
+<!-- SKETCHY BORDER -->
+<div style="background-image: url('assets/structure/border.png'); background-size: 20% 100%;">
+	<div class="separation"></div>
+	<div class="centext compact">...</div>
+</div>
 
-<!--
-<div class="ext 1 centext">Travel across your own world and into another. With pure curiosity, find yourself being strung along into .</div>
--->
-<!--
-"Features":
-- Turn-Based Action Battle-System.
-> Control a Party of up to 6 with max of 3 in-action at a time.
-> See all Party Members at once in battles with the special "bench" mechanic. Let characters take a seat and others hop in using the bench. Characters benched will collectively have a turn of their own to assist the active members.
-- Action, Action, Action. Overworld Interaction.
-> Exploring the World of Opt-Out is not a simple walkaround experience. Freedom is in your hands to get dirty and see all you want. Jump all over the place or kick down all the trash you come across, it's up to you. With an interesting moveset, traveling place to place is something that feels more engaging in Opt-Out than any basic RPG. Walk, Run, Crouch, Hop, Leap, Kick, Float, Climb, Swing, but don't Drown!
-- Several Leader Characters to play as. Many Party Members to meet. So many Allies to come gather. Endless enemies to be made.
-> Each Leader character you take control of has their own way of interacting with the world. When seeing the world through new eyes, you may be happy to discover new skills only then possible. Each Leader may be friendly with entirely different groups of characters. Get exposed to new things.
-> Special characters will join you as Party Members. Hang out with your new friends exploring everything unknown together.
-> Certain characters can become Allies. Ally characters may temporarily join your party to assist in battles. Ally characters will have their own moves to carry out only if they choose to do so.
-> All characters have unique specialties, skills, knowledge, etc. so be sure to always have strategy when approaching battles.
-
-"Details":
-Single-Player
-Genre: JRPG
-Publisher: MustardPlus
-Developer: MustardPlus
-Platforms: Windows (others TBA)
-Release Date: TBA
-
-Made with GameMaker Studio 2.
-Development roughly started: January 22, 2016
--->
-<!--
+<!-- FAQ -->
+<img class="photo photow2 centered" src="assets/structure/faqs.png"/>
+<!-- TWO GAMES?-->
+<img class="photo photow3 centered" src="assets/structure/twogames.png"/>
+<div class="ext2 centext fntKanit"><br>Yes. <span class="cYd">2</span> Games.<br><br></div>
+<div class="centext"><span class="ext2"><span class="cY">[</span>Opt<span class="cY">-</span>Out<span class="cY">]</span></span> <span class="ext3 cYd fntKanit"> and  </span> <span class="ext2"><span class="cP">[</span>Opt<span class="cP">-</span>Out<span class="cP">]</span>: Uncanny</span></span></div>
 <div class="separation2"></div>
-<img id="ico_scroll" class="photo centered" style="max-width: 2%;" src="assets/structure/scrolldown.png"/>
-<div class="separation2"></div>
-<div class="clickable cYd centext">[click here to learn more]</div>
-<div class="gap2"></div>
--->
+<img class="photo photow4 centered" src="assets/logos/ico_both.png"/>
+<div class="fntSlabo ext2 centext"><br><span class="cY">[Opt-Out]</span> originally started development in 2016.<br> It is currently on hold until <span class="cP">[Opt-Out]: Uncanny</span> is complete.<br><br><span class="cP">[Opt-Out]: Uncanny</span> is a smaller story that will overlap with the story of <span class="cY">[Opt-Out]</span>.<br><span class="cP">Uncanny</span> will give you a good idea of what visual style and gameplay mechanics to expect from <span class="cY">[Opt-Out]</span>.<br><span class="cP">Uncanny</span> does not have a set timeframe for release, but playable demos<span class="cYd">*</span> of the game will be released as the game is being made.<br></div>
+<br>
+<div class="fntSlabo centext"><span class="ext3 cYd">*</span><span class="ext4">All released demos of Opt-Out: Uncanny are made publicly available through this website, eventually. Announcements of new releases are done on the Opt-Out Discord Server. Very early access to demos is exclusive to patrons of the proper tier.</span></div>
+<div class="separation"></div>
 
 <!-- SKETCHY BORDER -->
 <div style="background-image: url('assets/structure/border.png'); background-size: 20% 100%;">
