@@ -1,12 +1,20 @@
 /*
-Last Update: 6/6/2020
-MustardPlus
+Last Update: 2/28/2022
+Romeo
 */
 
 body {
 	background-color: #000;/*#040008;*/
 	color: #FFF;
 	font-family: 'Cinzel', serif;
+}
+
+.fntOutcastish {
+    font-family: 'outcastishregular';
+    src: url('outcastish-regular.woff2') format('woff2'),
+         url('outcastish-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 .fntSlabo {
@@ -22,10 +30,20 @@ body {
 	overflow-x: hidden;
 }
 
+.content {
+	background: no-repeat url('assets/structure/backdoor.png');
+	background-position: center;
+	background-size: contain;
+	min-height: 600px;
+	max-height: 1000px;
+}
+
 #footer {
 	text-align: center;
 	margin: 40px 0px;
 	font-size: 12px;
+	color: #000;
+	background-color: #555;
 }
 
 #social {
